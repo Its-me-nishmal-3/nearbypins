@@ -9,6 +9,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  shared_preferences: ^2.2.3
+  http: ^1.2.0
+  another_flushbar: ^1.12.30
+  url_launcher: ^6.3.0
+  font_awesome_flutter: ^10.7.0
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+  easy_upi_payment: ^0.1.6
+  pay: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -17,6 +26,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/google_pay_config.json
   # assets:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
